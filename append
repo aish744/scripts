@@ -1,0 +1,13 @@
+#!/bin/bash
+
+append_to_file()
+{
+local text="$1"
+local data="$2"
+
+echo "$data" >> "$text"
+echo "Data appended to text file $text:"
+echo "$data"
+}
+
+append_to_file "output.txt" "this is new line "

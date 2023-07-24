@@ -1,0 +1,5 @@
+#!/bin/bash 
+second="Audi"
+sed -i "s/BMW/$second/g"  text
+
+

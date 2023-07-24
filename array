@@ -1,0 +1,4 @@
+#!/bin/bash
+
+IndexedArray=(asdf ghjk 1 qwerty poiuyt lkjh mnb)
+for i in "${IndexedArray[1]}";do echo "$i";done

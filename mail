@@ -1,0 +1,13 @@
+#!/bin/bash
+
+Recipient="aishwarya74457@gmail.com"
+Mysubject="Regarding our talk"
+Mymessage="Call me"
+
+# Using a here-document to provide the email content to sendmail
+sendmail "$Recipient" <<EOL
+Subject: $Mysubject
+
+$Mymessage
+EOL
+

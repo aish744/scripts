@@ -1,0 +1,2 @@
+#!/bin/bash
+sleep 5 && echo "i have been sleeping for 10 seconds && echo " && echo  " i am done sleeping,Thanks!"

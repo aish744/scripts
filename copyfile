@@ -1,0 +1,13 @@
+#!/bin/bash
+copyfile()
+{
+local sourcefile="$1"
+local destinationfile="$2"
+
+cp "$sourcefile" "$destinationfile" 
+
+echo "filew copied successfully"
+}
+
+copyfile "sourcefile" "destinationfile"
+
